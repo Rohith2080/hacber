@@ -15,7 +15,7 @@ int rd[30] = { 0 };
 used to check whether a queen can be placed in that
 	row or not*/
 int cl[30] = { 0 };
-/* A utility function to print solution */
+
 void printSolution(int board[N][N])
 {
 	for (int i = 0; i < N; i++) {
